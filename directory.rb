@@ -8,3 +8,7 @@ puts "Alex de Large"
 puts "The Alien"
 puts "Freddy Kruger"
 puts "The Joker"
+
+print "Overall, we have "
+print 8
+puts " great students"
