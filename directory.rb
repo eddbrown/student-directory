@@ -18,9 +18,9 @@ end
 
 def print_list(students)
 	students.each_with_index do |student,i|
-		if student[:name][0] == "a" or student[:name][0] == "A"
+		if student[:name].length < 12
 			print "#{i+1}. #{student[:name]} (#{student[:cohort]} cohort)\n"
-		end	
+		end
 	end
 end
 
